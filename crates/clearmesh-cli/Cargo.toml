@@ -1,0 +1,24 @@
+[package]
+name = "clearmesh-cli"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+chrono.workspace = true
+clap = { version = "4", features = ["derive"] }
+clearmesh-core = { path = "../../../clearmesh-core" }
+dirs = "5"
+num_cpus = "1"
+rayon = "1"
+reqwest = { version = "0.11", features = ["blocking", "json", "rustls-tls"], default-features = false }
+serde.workspace = true
+serde_json.workspace = true
+tokio = { version = "1", features = ["full"] }
+walkdir = "2"
+
+[target.'cfg(unix)'.dependencies]
+fuser = "0.14"
+libc = "0.2"

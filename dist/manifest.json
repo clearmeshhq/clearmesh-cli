@@ -1,0 +1,32 @@
+{
+  "product": "clearmesh-cli",
+  "version": "0.1.0",
+  "channel": "latest",
+  "artifacts": [
+    {
+      "name": "clearmesh-linux-x86_64",
+      "bytes": 8042720,
+      "sha256": ""
+    },
+    {
+      "name": "clearmesh-linux-x86_64-0.1.0.tar.gz",
+      "bytes": 3138064,
+      "sha256": "8e3fd9ccf412163817d0d9215d87553730658fb22831572fe57175e1debae7ca"
+    },
+    {
+      "name": "clearmesh-linux-x86_64.tar.gz",
+      "bytes": 3138064,
+      "sha256": "8e3fd9ccf412163817d0d9215d87553730658fb22831572fe57175e1debae7ca"
+    },
+    {
+      "name": "clearmesh-windows-x86_64-0.1.0.zip",
+      "bytes": 8366016,
+      "sha256": "78a09497b1272393633f6dca140fba50acb5e333cfdf1ecf3aced9e92c612774"
+    },
+    {
+      "name": "clearmesh-windows-x86_64.zip",
+      "bytes": 8366016,
+      "sha256": "78a09497b1272393633f6dca140fba50acb5e333cfdf1ecf3aced9e92c612774"
+    }
+  ]
+}
